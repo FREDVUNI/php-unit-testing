@@ -1,0 +1,14 @@
+<phpunit>
+    <php>
+        <includePath>src/</includePath>
+    </php>
+    <testsuites>
+        <testsuite name="MyTestSuite">
+            <directory>tests/</directory>
+            <file>tests/CreateTaskTest.php</file>
+            <file>tests/DeleteTaskTest.php</file>
+            <file>tests/UpdateTaskTest.php</file>
+            <file>tests/FetchTasksTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
